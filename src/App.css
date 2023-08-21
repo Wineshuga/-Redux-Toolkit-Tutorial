@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.nav-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(51, 75, 155);
+  color: white;
+  padding: 1rem;
+}
+
+.cart-icon {
+  width: 3rem;
+}
+
+.nav-container {
+  position: relative;
+}
+
+.amount-container {
+  position: absolute;
+  top: -0.3rem;
+  left: -0.5rem;
+  background-color: white;
+  opacity: 0.5;
+  text-align: center;
+  width: 1.5rem;
+  color: black;
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+
+article > img {
+  width: 5rem;
+}
